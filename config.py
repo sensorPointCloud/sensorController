@@ -42,6 +42,3 @@ def get_config():
     conf['motor2_limit_switch_bottom_lower'] = {'pin': Pin.cpu.F12, 'active_low': True }
 
     return conf
-    # 'limit_switch_top_upper'   : {'pin': Pin.cpu.A7},
-    # 'limit_switch_bottom_upper': {'pin': Pin.cpu.D15},
-    # 'limit_switch_bottom_lower': {'pin': Pin.cpu.F12},

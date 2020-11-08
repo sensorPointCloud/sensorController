@@ -1,7 +1,3 @@
-#import motor_dc_test
-
-#motor_dc_test.run_all_tests()
-
 import setup
 import pyb
 import time
@@ -35,6 +31,7 @@ m3    = setup.get_motor_with_encoder3()
 m3_ls = setup.get_limit_switches_motor3()
 
 m3=m1
+
 while True:
     x,y = joystic_val()
     x = x/10
