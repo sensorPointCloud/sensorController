@@ -1,0 +1,4 @@
+rshell -p /dev/ttyACM0 cp main.py motor_dc.py state.py motor_dc_test.py config.py setup.py run_joystick.py /flash
+echo
+echo Connecting to MCU
+picocom -b115200 /dev/ttyACM0
